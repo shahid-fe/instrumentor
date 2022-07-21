@@ -1,0 +1,30 @@
+<main>
+  <div class="event-table">
+    <p class="heading">Properties</p>
+    <nz-table #basicTable [nzData]="eventsTableData" [nzShowPagination]="false">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Camera Type</th>
+          <th>Event ID</th>
+          <th>Time Since Upload</th>
+          <th>Event Type</th>
+          <th>Vehicle ID</th>
+          <th>Company ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of basicTable.data">
+          <td>{{data.date}}</td>
+          <td>{{data.cameraType}}</td>
+          <td>{{data.eventId}}</td>
+          <td>{{data.timeSinceLastUpload}}</td>
+          <td>{{data.eventType}}</td>
+          <td>{{data.vehicleId}}</td>
+          <td>{{data.companyId}}</td>
+        </tr>
+      </tbody>
+    </nz-table>
+  </div>
+</main>
+

@@ -1,0 +1,33 @@
+
+// custom variables
+.ant-page-header {
+  z-index: 1001; // z-index of loader + 1
+  box-shadow: 0 0 0 1px rgba(#2E2E2E, 0.04), 0 2px 4px rgba(#2E2E2E, 0.16);
+  padding: 0;
+  
+  &.primary {
+    background-color: #0073E7;
+    color: #fff;
+
+    nz-page-header-title {
+      color: inherit !important;
+    }
+  }
+
+}
+
+.ant-page-header-heading {
+  height: inherit;
+  padding: 12px 24px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ant-page-header-heading-title {
+  font-size: 18px;
+  color: #2E2E2E;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
