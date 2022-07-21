@@ -4,12 +4,13 @@ import { EventTrackingDetailService } from './event-tracking-detail.service';
 export interface IEeventData {
   date: string;
   cameraType: string;
-  eventId: string;
-  timeSinceLastUpload: string;
-  eventType: string;
+  id: number;
+  timeSinceUpload: string;
+  type: string;
   vehicleId: number;
-
-  companyId: string;
+  user_id: number;
+  companyId: number;
+  company_id: number;
 }
 
 @Component({

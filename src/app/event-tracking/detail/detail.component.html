@@ -1,9 +1,16 @@
 <main>
   <div class="event-table">
     <p class="heading">Properties</p>
-    <nz-table #basicTable [nzData]="eventsTableData" [nzShowPagination]="false">
+    <nz-table
+      #basicTable
+      [nzData]="eventsTableData"
+      [nzShowPagination]="false"
+      [nzFrontPagination]="false"
+      [nzScroll]="{ y: '400px' }"
+    >
       <thead>
         <tr>
+          <th>Account</th>
           <th>Date</th>
           <th>Camera Type</th>
           <th>Event ID</th>
@@ -15,16 +22,16 @@
       </thead>
       <tbody>
         <tr *ngFor="let data of basicTable.data">
-          <td>{{data.date}}</td>
-          <td>{{data.cameraType}}</td>
-          <td>{{data.eventId}}</td>
-          <td>{{data.timeSinceLastUpload}}</td>
-          <td>{{data.eventType}}</td>
-          <td>{{data.vehicleId}}</td>
-          <td>{{data.companyId}}</td>
+          <td>{{ data.user_id }}</td>
+          <td>{{ data.date }}</td>
+          <td>{{ data.cameraType }}</td>
+          <td>{{ data.id }}</td>
+          <td>{{ data.timeSinceUpload }}</td>
+          <td>{{ data.type }}</td>
+          <td>{{ data.vehicleId }}</td>
+          <td>{{ data.companyId }}</td>
         </tr>
       </tbody>
     </nz-table>
   </div>
 </main>
-
