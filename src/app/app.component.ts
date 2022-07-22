@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,8 +9,12 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   title = 'instrumentor';
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   public ngOnInit(): void {
+  }
+
+  public onHomeClick(): void {
+    this.router.navigate(['/event']);
   }
 }

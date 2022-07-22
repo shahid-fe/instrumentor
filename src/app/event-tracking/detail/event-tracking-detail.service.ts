@@ -1,3 +1,4 @@
+import { SAFETY_EVENT_TRACK } from './../list/list.component';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { Inject, Injectable } from '@angular/core';
@@ -12,16 +13,16 @@ import { map } from 'rxjs/operators';
 export class EventTrackingDetailService {
   constructor(private http: HttpClient) {}
 
-  public getEventsData() {
-    return of(this.transformData(EVENT_DETAILS_MOCK_DATA_SEQUENTIAL));
+  public getEventsData(event: SAFETY_EVENT_TRACK) {
+    return of(this.transformData(EVENT_DETAILS_MOCK_DATA_SEQUENTIAL, event));
   }
 
-  public getAllEventsData() {
+  public getAllEventsData(event: SAFETY_EVENT_TRACK) {
     return this.http
       .get(
         'http://seven-months-film-101-50-109-15.loca.lt/api/w2/instrumentor_event_details'
       )
-      .pipe(map(this.transformData.bind(this)));
+      .pipe(map((res) => this.transformData(res, event)));
   }
 
   public getTopVisitor(data: any) {
@@ -56,12 +57,14 @@ export class EventTrackingDetailService {
     return Object.values(companies);
   }
 
-  public transformData(data: any) {
-    const eventsData = data.map((x: any) => {
-      return {
-        ...x.instrumentor_event_detail,
-      };
-    });
+  public transformData(data: any, event: string) {
+    const eventsData = data
+      .map((x: any) => {
+        return {
+          ...x.instrumentor_event_detail,
+        };
+      })
+      .filter((x: any) => x.recordedEventType === event);
 
     const topCompanies = this.getTopCompanies(eventsData);
 

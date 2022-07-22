@@ -1,0 +1,15 @@
+.header {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+nz-list {
+  margin: 5px;
+  width: 50%;
+
+  nz-list-item {
+    color: #3AB4F2;
+    cursor: pointer;
+  }
+}

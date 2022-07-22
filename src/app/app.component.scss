@@ -11,3 +11,9 @@ nz-page-header {
   overflow-y: auto;
   height: calc(100% - 64px);
 }
+
+.title {
+  margin-bottom: 0;
+  font-weight: bold;
+  cursor: pointer;
+}

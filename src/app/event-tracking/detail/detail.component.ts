@@ -1,3 +1,5 @@
+import { SAFETY_EVENT_TRACK } from './../list/list.component';
+import { ActivatedRoute } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { EventTrackingDetailService } from './event-tracking-detail.service';
 // import {Chart } from 'chart.js';
@@ -31,11 +33,12 @@ export class DetailComponent implements OnInit {
     responsive: true, // Instruct chart js to respond nicely.
     maintainAspectRatio: false, // Add to prevent default behaviour of full-width/height
   };
-  constructor(private eventTrackingDetailService: EventTrackingDetailService) {}
+  constructor(private eventTrackingDetailService: EventTrackingDetailService, private activateRoute: ActivatedRoute) {}
 
   ngOnInit(): void {
+    const params = this.activateRoute.snapshot.params;
     this.isLoading = true;
-    this.eventTrackingDetailService.getAllEventsData().subscribe((res: any) => {
+    this.eventTrackingDetailService.getAllEventsData(params?.event || SAFETY_EVENT_TRACK.OPENED).subscribe((res: any) => {
       this.isLoading = false;
       this.eventsTableData = res.eventsData;
       this.companyData = res.topCompanies;
