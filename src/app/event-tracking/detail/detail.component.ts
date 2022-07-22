@@ -65,21 +65,30 @@ export class DetailComponent implements OnInit {
     this.canvas = document.getElementById('myChart');
     this.ctx = this.canvas.getContext('2d');
     var gradient = this.ctx.createLinearGradient(0, 0, 0, 280);
-    gradient.addColorStop(0, 'rgba(239,43,114,1)');   
+    gradient.addColorStop(0, 'rgba(239,43,114,1)');
     gradient.addColorStop(1, 'rgba(239,43,114,0)');
     let myChart = new Chart(this.ctx, {
       type: 'line',
       data: {
-        labels: ['Angular 11', 'Angular 10', 'Angular 9'],
+        labels: Object.keys(this.graphTotals),
         datasets: [
           {
-            label: 'Active Angular Vesrions',
-            data: [85, 100, 60],
-            borderWidth: 1,
-            borderColor: '#ffb1c1',
-            backgroundColor: gradient,
+            label: 'Total Events',
+            data:  Object.values(this.graphTotals),
+            backgroundColor: "#80b6f4",
             type: 'line',
             order: 0,
+            borderColor: "#80b6f4",
+            pointBorderColor: "#80b6f4",
+            pointBackgroundColor: "#80b6f4",
+            pointHoverBackgroundColor: "#80b6f4",
+            pointHoverBorderColor: "#80b6f4",
+            pointBorderWidth: 10,
+            pointHoverRadius: 10,
+            pointHoverBorderWidth: 1,
+            pointRadius: 3,
+            fill: false,
+            borderWidth: 4,
           },
         ],
       },
