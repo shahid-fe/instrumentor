@@ -34,13 +34,13 @@
       >
         <thead>
           <tr>
-            <th>Company ID</th>
+            <th>Accounts</th>
             <th>Number of Track Events</th>
           </tr>
         </thead>
         <tbody>
           <tr *ngFor="let data of companyTable.data">
-            <td>{{ data.companyId }}</td>
+            <td>{{ data.companyName }}</td>
             <td>{{ data.count }}</td>
           </tr>
         </tbody>

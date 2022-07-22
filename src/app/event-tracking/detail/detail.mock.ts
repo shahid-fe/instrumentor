@@ -5,6 +5,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -16,6 +17,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -27,6 +29,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -38,6 +41,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -49,6 +53,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -60,6 +65,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -71,6 +77,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -82,6 +89,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -93,6 +101,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -104,6 +113,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -115,6 +125,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -126,6 +137,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -137,6 +149,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -148,6 +161,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -159,6 +173,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -170,6 +185,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -181,6 +197,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -192,6 +209,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -203,6 +221,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -214,6 +233,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -225,6 +245,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -236,6 +257,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -247,6 +269,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -258,6 +281,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -269,6 +293,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -280,6 +305,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -291,6 +317,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -302,6 +329,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -313,6 +341,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -324,6 +353,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -335,6 +365,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -346,6 +377,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -357,6 +389,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -368,6 +401,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -379,6 +413,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -390,6 +425,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -401,6 +437,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -412,6 +449,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -423,6 +461,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -434,6 +473,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -445,6 +485,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -456,6 +497,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -467,6 +509,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -478,6 +521,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -489,6 +533,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -500,6 +545,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -511,6 +557,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -522,6 +569,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -533,6 +581,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -544,6 +593,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -555,6 +605,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -566,6 +617,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -577,6 +629,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -588,6 +641,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -599,6 +653,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -610,6 +665,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -621,6 +677,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -632,6 +689,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -643,6 +701,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -654,6 +713,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -665,6 +725,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -676,6 +737,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -687,6 +749,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -698,6 +761,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -709,6 +773,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -720,6 +785,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -731,6 +797,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -742,6 +809,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -753,6 +821,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -764,6 +833,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -775,6 +845,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -786,6 +857,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -797,6 +869,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -808,6 +881,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -819,6 +893,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -830,6 +905,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -841,6 +917,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -852,6 +929,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -863,6 +941,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -874,6 +953,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -885,6 +965,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -896,6 +977,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -907,6 +989,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -918,6 +1001,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -929,6 +1013,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -940,6 +1025,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -951,6 +1037,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -962,6 +1049,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -973,6 +1061,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -984,6 +1073,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -995,6 +1085,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1006,6 +1097,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1017,6 +1109,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1028,6 +1121,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1039,6 +1133,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1050,6 +1145,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1061,6 +1157,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1072,6 +1169,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1083,6 +1181,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1094,6 +1193,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1105,6 +1205,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1116,6 +1217,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1127,6 +1229,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1138,6 +1241,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1149,6 +1253,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1160,6 +1265,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1171,6 +1277,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1182,6 +1289,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1193,6 +1301,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1204,6 +1313,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1215,6 +1325,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1226,6 +1337,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1237,6 +1349,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1248,6 +1361,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1259,6 +1373,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1270,6 +1385,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1281,6 +1397,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1292,6 +1409,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1303,6 +1421,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1314,6 +1433,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1325,6 +1445,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1336,6 +1457,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1347,6 +1469,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1358,6 +1481,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1369,6 +1493,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1380,6 +1505,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1391,6 +1517,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1402,6 +1529,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1413,6 +1541,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1424,6 +1553,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1435,6 +1565,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1446,6 +1577,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1457,6 +1589,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1468,6 +1601,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1479,6 +1613,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1490,6 +1625,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1501,6 +1637,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1512,6 +1649,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1523,6 +1661,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1534,6 +1673,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1545,6 +1685,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1556,6 +1697,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1567,6 +1709,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1578,6 +1721,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1589,6 +1733,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1600,6 +1745,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1611,6 +1757,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1622,6 +1769,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1633,6 +1781,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1644,6 +1793,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1655,6 +1805,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1666,6 +1817,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1677,6 +1829,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1688,6 +1841,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1699,6 +1853,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043206,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc2',
       eventId: 752,
@@ -1710,171 +1865,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
-      date: '20/07/2022',
-      cameraType: 'dc33',
-      eventId: 7527,
-      timeSinceUpload: '12h 53m',
-      eventType: 'hard_brake',
-      vehicleId: 985,
-      email: 'shahid.jamil+pariso@keeptruckin.com',
-    },
-    {
-      userId: 1043207,
-      companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -1886,6 +1877,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -1897,6 +1889,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -1908,6 +1901,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -1919,6 +1913,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -1930,6 +1925,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -1941,6 +1937,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -1952,6 +1949,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -1963,6 +1961,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -1974,6 +1973,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -1985,6 +1985,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -1996,6 +1997,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2007,6 +2009,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2018,6 +2021,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2029,6 +2033,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2040,6 +2045,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2051,6 +2057,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2062,6 +2069,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2073,6 +2081,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2084,6 +2093,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2095,6 +2105,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2106,6 +2117,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2117,6 +2129,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2128,6 +2141,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2139,6 +2153,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2150,6 +2165,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2161,6 +2177,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2172,6 +2189,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2183,6 +2201,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2194,6 +2213,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2205,6 +2225,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2216,6 +2237,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2227,6 +2249,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2238,6 +2261,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2249,6 +2273,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2260,6 +2285,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2271,6 +2297,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2282,6 +2309,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2293,6 +2321,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '20/07/2022',
       cameraType: 'dc33',
       eventId: 7527,
@@ -2304,6 +2333,187 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
+      date: '20/07/2022',
+      cameraType: 'dc33',
+      eventId: 7527,
+      timeSinceUpload: '12h 53m',
+      eventType: 'hard_brake',
+      vehicleId: 985,
+      email: 'shahid.jamil+pariso@keeptruckin.com',
+    },
+    {
+      userId: 1043207,
+      companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2315,6 +2525,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2326,6 +2537,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2337,6 +2549,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2348,6 +2561,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2359,6 +2573,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2370,6 +2585,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2381,6 +2597,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2392,6 +2609,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2403,6 +2621,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2414,6 +2633,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2425,6 +2645,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2436,6 +2657,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2447,6 +2669,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2458,6 +2681,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2469,6 +2693,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2480,6 +2705,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2491,6 +2717,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2502,6 +2729,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2513,6 +2741,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2524,6 +2753,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2535,6 +2765,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2546,6 +2777,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2557,6 +2789,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2568,6 +2801,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2579,6 +2813,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2590,6 +2825,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2601,6 +2837,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2612,6 +2849,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2623,6 +2861,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2634,6 +2873,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2645,6 +2885,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2656,6 +2897,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2667,6 +2909,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2678,6 +2921,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2689,6 +2933,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2700,6 +2945,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2711,6 +2957,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2722,6 +2969,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2733,6 +2981,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2744,6 +2993,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2755,6 +3005,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '21/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2766,6 +3017,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2777,6 +3029,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2788,6 +3041,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2799,6 +3053,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2810,6 +3065,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2821,6 +3077,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2832,6 +3089,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2843,6 +3101,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2854,6 +3113,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2865,6 +3125,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2876,6 +3137,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2887,6 +3149,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2898,6 +3161,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2909,6 +3173,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2920,6 +3185,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2931,6 +3197,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2942,6 +3209,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2953,6 +3221,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2964,6 +3233,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2975,6 +3245,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2986,6 +3257,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -2997,6 +3269,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3008,6 +3281,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3019,6 +3293,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3030,6 +3305,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3041,6 +3317,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3052,6 +3329,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3063,6 +3341,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3074,6 +3353,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3085,6 +3365,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3096,6 +3377,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3107,6 +3389,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3118,6 +3401,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3129,6 +3413,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3140,6 +3425,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3151,6 +3437,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3162,6 +3449,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3173,6 +3461,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3184,6 +3473,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3195,6 +3485,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3206,6 +3497,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3217,6 +3509,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3228,6 +3521,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3239,6 +3533,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3250,6 +3545,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3261,6 +3557,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3272,6 +3569,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3283,6 +3581,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3294,6 +3593,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3305,6 +3605,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3316,6 +3617,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3327,6 +3629,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3338,6 +3641,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3349,6 +3653,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3360,6 +3665,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3371,6 +3677,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3382,6 +3689,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3393,6 +3701,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,
@@ -3404,6 +3713,7 @@ export const EVENT_DETAILS_MOCK_DATA_SEQUENTIAL = [
     {
       userId: 1043207,
       companyId: 160,
+      companyName: 'Caravana LLC',
       date: '22/07/2022',
       cameraType: 'dc33',
       eventId: 7528,

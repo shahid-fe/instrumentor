@@ -39,6 +39,7 @@ export class EventTrackingDetailService {
         companies[x.companyId] = {
           count: 1,
           companyId: x.companyId,
+          companyName: x.companyName,
           userId: x.userId,
           email: x.email,
         };
