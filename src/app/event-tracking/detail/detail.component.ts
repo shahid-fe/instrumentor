@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { EventTrackingDetailService } from './event-tracking-detail.service';
-import { Chart } from 'chart.js';
 
 export interface IEventData {
   date: string;
