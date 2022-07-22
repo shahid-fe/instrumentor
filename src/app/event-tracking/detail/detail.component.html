@@ -13,13 +13,13 @@
       >
         <thead>
           <tr>
-            <th>Email</th>
+            <th>User ID</th>
             <th>Number of Track Events</th>
           </tr>
         </thead>
         <tbody>
           <tr *ngFor="let data of visitorTable.data">
-            <td>{{ data.email }}</td>
+            <td>{{ data.userId }}</td>
             <td>{{ data.count }}</td>
           </tr>
         </tbody>
@@ -36,13 +36,13 @@
       >
         <thead>
           <tr>
-            <th>Accounts</th>
+            <th>Company ID</th>
             <th>Number of Track Events</th>
           </tr>
         </thead>
         <tbody>
           <tr *ngFor="let data of companyTable.data">
-            <td>{{ data.companyName }}</td>
+            <td>{{ data.companyId }}</td>
             <td>{{ data.count }}</td>
           </tr>
         </tbody>

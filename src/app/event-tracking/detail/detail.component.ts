@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EventTrackingDetailService } from './event-tracking-detail.service';
 // import {Chart } from 'chart.js';
-import Chart from 'chart.js/auto'
+import Chart from 'chart.js/auto';
 export interface IEventData {
   date: string;
   cameraType: string;
@@ -34,9 +34,10 @@ export class DetailComponent implements OnInit {
   constructor(private eventTrackingDetailService: EventTrackingDetailService) {}
 
   ngOnInit(): void {
-    this.eventTrackingDetailService.getEventsData().subscribe((res: any) => {
-      console.log(res);
-      this.eventsTableData = res[0];
+    this.eventTrackingDetailService.getAllEventsData().subscribe((res: any) => {
+      this.eventsTableData = res.eventsData;
+      this.companyData = res.topCompanies;
+      this.visitorsData = res.topVisitors;
       this.eventsTableData.forEach((event: IEventData) => {
         const date: string = event.date;
         if (this.graphTotals[date]) {
@@ -48,17 +49,9 @@ export class DetailComponent implements OnInit {
       Object.keys(this.graphTotals).forEach((date: string) => {
         this.chartData.push({ date, events: this.graphTotals[date] });
       });
+      this.chartData = [...this.chartData];
+      this.drawChart();
     });
-
-    this.eventTrackingDetailService.getTopVisitor().subscribe((res) => {
-      this.visitorsData = res;
-    });
-
-    this.eventTrackingDetailService.getTopCompanies().subscribe((res) => {
-      this.companyData = res;
-    });
-
-    this.drawChart();
   }
 
   private drawChart() {
@@ -74,15 +67,15 @@ export class DetailComponent implements OnInit {
         datasets: [
           {
             label: 'Total Events',
-            data:  Object.values(this.graphTotals),
-            backgroundColor: "#80b6f4",
+            data: Object.values(this.graphTotals),
+            backgroundColor: '#80b6f4',
             type: 'line',
             order: 0,
-            borderColor: "#80b6f4",
-            pointBorderColor: "#80b6f4",
-            pointBackgroundColor: "#80b6f4",
-            pointHoverBackgroundColor: "#80b6f4",
-            pointHoverBorderColor: "#80b6f4",
+            borderColor: '#80b6f4',
+            pointBorderColor: '#80b6f4',
+            pointBackgroundColor: '#80b6f4',
+            pointHoverBackgroundColor: '#80b6f4',
+            pointHoverBorderColor: '#80b6f4',
             pointBorderWidth: 10,
             pointHoverRadius: 10,
             pointHoverBorderWidth: 1,
