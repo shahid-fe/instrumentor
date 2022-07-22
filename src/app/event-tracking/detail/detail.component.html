@@ -1,4 +1,52 @@
 <main>
+  <section class="flex">
+    <div class="top-section">
+      <div class="section-heading">Top Visistors</div>
+      <nz-table
+        #visitorTable
+        [nzData]="visitorsData"
+        [nzShowPagination]="false"
+        [nzFrontPagination]="false"
+        [nzScroll]="{ y: '400px' }"
+      >
+        <thead>
+          <tr>
+            <th>Email</th>
+            <th>Number of Track Events</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of visitorTable.data">
+            <td>{{ data.email }}</td>
+            <td>{{ data.count }}</td>
+          </tr>
+        </tbody>
+      </nz-table>
+    </div>
+    <div class="top-section">
+      <div class="section-heading">Top Accounts</div>
+      <nz-table
+        #companyTable
+        [nzData]="companyData"
+        [nzShowPagination]="false"
+        [nzFrontPagination]="false"
+        [nzScroll]="{ y: '400px' }"
+      >
+        <thead>
+          <tr>
+            <th>Company ID</th>
+            <th>Number of Track Events</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of companyTable.data">
+            <td>{{ data.companyId }}</td>
+            <td>{{ data.count }}</td>
+          </tr>
+        </tbody>
+      </nz-table>
+    </div>
+  </section>
   <div class="event-table">
     <p class="heading">Properties</p>
     <nz-table
@@ -25,9 +73,9 @@
           <td>{{ data.userId }}</td>
           <td>{{ data.date }}</td>
           <td>{{ data.cameraType }}</td>
-          <td>{{ data.id }}</td>
+          <td>{{ data.eventId }}</td>
           <td>{{ data.timeSinceUpload }}</td>
-          <td>{{ data.type }}</td>
+          <td>{{ data.eventType }}</td>
           <td>{{ data.vehicleId }}</td>
           <td>{{ data.companyId }}</td>
         </tr>

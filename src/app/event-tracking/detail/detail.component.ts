@@ -18,14 +18,16 @@ export interface IEventData {
   styleUrls: ['./detail.component.scss'],
 })
 export class DetailComponent implements OnInit {
-  public eventsTableData: any;
+  public eventsTableData: any = [];
+  public visitorsData: any = [];
+  public companyData: any = [];
   constructor(private eventTrackingDetailService: EventTrackingDetailService) {}
 
   ngOnInit(): void {
     this.eventTrackingDetailService.getEventsData().subscribe((res) => {
       console.log(res);
       this.eventsTableData = res[0];
-      const graphData: {[key: string]: number} = {};
+      const graphData: { [key: string]: number } = {};
       this.eventsTableData.forEach((event: IEventData) => {
         const date: string = event.date;
         if (graphData[date]) {
@@ -34,6 +36,14 @@ export class DetailComponent implements OnInit {
           graphData[date] = 1;
         }
       });
+    });
+
+    this.eventTrackingDetailService.getTopVisitor().subscribe((res) => {
+      this.visitorsData = res;
+    });
+
+    this.eventTrackingDetailService.getTopCompanies().subscribe((res) => {
+      this.companyData = res;
     });
   }
 }
