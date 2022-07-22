@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EventTrackingDetailService } from './event-tracking-detail.service';
-
+// import {Chart } from 'chart.js';
+import Chart from 'chart.js/auto'
 export interface IEventData {
   date: string;
   cameraType: string;
@@ -21,9 +22,11 @@ export class DetailComponent implements OnInit {
   public eventsTableData: any = [];
   public visitorsData: any = [];
   public companyData: any = [];
-  private chart: any;
+
   public chartData: any = [];
   private graphTotals: { [key: string]: number } = {};
+  private canvas: any;
+  private ctx: any;
   public chartOptions = {
     responsive: true, // Instruct chart js to respond nicely.
     maintainAspectRatio: false, // Add to prevent default behaviour of full-width/height
@@ -34,7 +37,6 @@ export class DetailComponent implements OnInit {
     this.eventTrackingDetailService.getEventsData().subscribe((res: any) => {
       console.log(res);
       this.eventsTableData = res[0];
-      const graphData: { [key: string]: number } = {};
       this.eventsTableData.forEach((event: IEventData) => {
         const date: string = event.date;
         if (this.graphTotals[date]) {
@@ -55,14 +57,41 @@ export class DetailComponent implements OnInit {
     this.eventTrackingDetailService.getTopCompanies().subscribe((res) => {
       this.companyData = res;
     });
-    console.log('graph Data', this.chartData);
+
     this.drawChart();
   }
 
   private drawChart() {
-    var canvas = <HTMLCanvasElement>(
-      document.getElementById('rohsProductSummaryChart')
-    );
-    var ctx = canvas.getContext('2d');
+    this.canvas = document.getElementById('myChart');
+    this.ctx = this.canvas.getContext('2d');
+    var gradient = this.ctx.createLinearGradient(0, 0, 0, 280);
+    gradient.addColorStop(0, 'rgba(239,43,114,1)');
+    gradient.addColorStop(1, 'rgba(239,43,114,0)');
+    let myChart = new Chart(this.ctx, {
+      type: 'line',
+      data: {
+        labels: Object.keys(this.graphTotals),
+        datasets: [
+          {
+            label: 'Total Events',
+            data:  Object.values(this.graphTotals),
+            backgroundColor: "#80b6f4",
+            type: 'line',
+            order: 0,
+            borderColor: "#80b6f4",
+            pointBorderColor: "#80b6f4",
+            pointBackgroundColor: "#80b6f4",
+            pointHoverBackgroundColor: "#80b6f4",
+            pointHoverBorderColor: "#80b6f4",
+            pointBorderWidth: 10,
+            pointHoverRadius: 10,
+            pointHoverBorderWidth: 1,
+            pointRadius: 3,
+            fill: false,
+            borderWidth: 4,
+          },
+        ],
+      },
+    });
   }
 }
