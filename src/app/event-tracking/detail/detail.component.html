@@ -1,5 +1,6 @@
 <main>
   <nz-spin *ngIf="isLoading" nzSimple [nzSize]="'large'"></nz-spin>
+  <h1 *ngIf="!isLoading" class="page-title">{{title}}</h1>
   <canvas id="myChart" width="1200px" height="400"></canvas>
 
   <ng-container *ngIf="!isLoading">

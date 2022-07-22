@@ -26,6 +26,7 @@ export class DetailComponent implements OnInit {
   public companyData: any = [];
   public isLoading = false;
   public chartData: any = [];
+  public title: SAFETY_EVENT_TRACK = SAFETY_EVENT_TRACK.OPENED;
   private graphTotals: { [key: string]: number } = {};
   private canvas: any;
   private ctx: any;
@@ -38,7 +39,8 @@ export class DetailComponent implements OnInit {
   ngOnInit(): void {
     const params = this.activateRoute.snapshot.params;
     this.isLoading = true;
-    this.eventTrackingDetailService.getAllEventsData(params?.event || SAFETY_EVENT_TRACK.OPENED).subscribe((res: any) => {
+    this.title = params?.event || SAFETY_EVENT_TRACK.OPENED;
+    this.eventTrackingDetailService.getAllEventsData(this.title).subscribe((res: any) => {
       this.isLoading = false;
       this.eventsTableData = res.eventsData;
       this.companyData = res.topCompanies;
