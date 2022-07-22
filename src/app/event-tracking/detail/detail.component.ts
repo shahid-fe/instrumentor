@@ -1,16 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { EventTrackingDetailService } from './event-tracking-detail.service';
 
-export interface IEeventData {
+export interface IEventData {
   date: string;
   cameraType: string;
   id: number;
   timeSinceUpload: string;
   type: string;
   vehicleId: number;
-  user_id: number;
+  userId: number;
   companyId: number;
-  company_id: number;
 }
 
 @Component({
@@ -19,7 +18,7 @@ export interface IEeventData {
   styleUrls: ['./detail.component.scss'],
 })
 export class DetailComponent implements OnInit {
-  public eventsTableData: IEeventData[] = [];
+  public eventsTableData: any;
   constructor(private eventTrackingDetailService: EventTrackingDetailService) {}
 
   ngOnInit(): void {
