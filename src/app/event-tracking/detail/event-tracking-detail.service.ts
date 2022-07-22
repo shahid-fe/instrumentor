@@ -10,10 +10,7 @@ import { map } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class EventTrackingDetailService {
-  constructor(
-    @Inject(ServerApi) private api: ServerApi,
-    private http: HttpClient
-  ) {}
+  constructor(private http: HttpClient) {}
 
   public getEventsData() {
     return of(this.transformData(EVENT_DETAILS_MOCK_DATA_SEQUENTIAL));
@@ -39,7 +36,7 @@ export class EventTrackingDetailService {
         };
       }
     });
-    return of(Object.values(visitors));
+    return Object.values(visitors);
   }
 
   public getTopCompanies(data: any) {
@@ -60,7 +57,7 @@ export class EventTrackingDetailService {
   }
 
   public transformData(data: any) {
-    const eventsData =  data.map((x: any) => {
+    const eventsData = data.map((x: any) => {
       return {
         ...x.instrumentor_event_detail,
       };
@@ -74,6 +71,6 @@ export class EventTrackingDetailService {
       eventsData,
       topCompanies,
       topVisitors,
-    }
+    };
   }
 }

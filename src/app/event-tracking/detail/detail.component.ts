@@ -22,7 +22,7 @@ export class DetailComponent implements OnInit {
   public eventsTableData: any = [];
   public visitorsData: any = [];
   public companyData: any = [];
-
+  public isLoading = false;
   public chartData: any = [];
   private graphTotals: { [key: string]: number } = {};
   private canvas: any;
@@ -34,7 +34,9 @@ export class DetailComponent implements OnInit {
   constructor(private eventTrackingDetailService: EventTrackingDetailService) {}
 
   ngOnInit(): void {
+    this.isLoading = true;
     this.eventTrackingDetailService.getAllEventsData().subscribe((res: any) => {
+      this.isLoading = false;
       this.eventsTableData = res.eventsData;
       this.companyData = res.topCompanies;
       this.visitorsData = res.topVisitors;
