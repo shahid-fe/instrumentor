@@ -23,7 +23,17 @@ export class DetailComponent implements OnInit {
 
   ngOnInit(): void {
     this.eventTrackingDetailService.getEventsData().subscribe((res) => {
-      this.eventsTableData = res;
+      console.log(res);
+      this.eventsTableData = res[0];
+      const graphData: {[key: string]: number} = {};
+      this.eventsTableData.forEach((event: IEventData) => {
+        const date: string = event.date;
+        if (graphData[date]) {
+          graphData[date]++;
+        } else {
+          graphData[date] = 1;
+        }
+      });
     });
   }
 }
