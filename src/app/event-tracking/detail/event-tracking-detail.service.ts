@@ -8,7 +8,7 @@ import { EVENT_DETAILS_MOCK_DATA_SEQUENTIAL } from './detail.mock';
 import { map, retry, delay } from 'rxjs/operators';
 
 const API_URL =
-  'http://f090-101-50-109-15.ngrok.io/api/w2/instrumentor_event_details';
+  'http://f0e2-101-50-109-15.ngrok.io/api/w2/instrumentor_event_details';
 
 @Injectable()
 export class EventTrackingDetailService {
