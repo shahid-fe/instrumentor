@@ -1,53 +1,81 @@
+import { SAFETY_EVENT_TRACK } from './../list/list.component';
+import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { Inject, Injectable } from '@angular/core';
 import { ServerApi } from 'src/app/services/server-api';
 import { IEventData } from './detail.component';
 import { EVENT_DETAILS_MOCK_DATA_SEQUENTIAL } from './detail.mock';
+import { map } from 'rxjs/operators';
+
+const API_URL = 'http://efc8-101-50-109-15.ngrok.io/api/w2/instrumentor_event_details'
 
 @Injectable({
   providedIn: 'root',
 })
 export class EventTrackingDetailService {
-  constructor(@Inject(ServerApi) private api: ServerApi) {}
+  constructor(private http: HttpClient) {}
 
-  public getActualEventsData() {
-    return this.api.get('instrumentor_event_details');
-  }
-  public getEventsData() {
-    return of(EVENT_DETAILS_MOCK_DATA_SEQUENTIAL);
+  public getEventsData(event: SAFETY_EVENT_TRACK) {
+    return of(this.transformData(EVENT_DETAILS_MOCK_DATA_SEQUENTIAL, event));
   }
 
-  public getTopVisitor() {
+  public getAllEventsData(event: SAFETY_EVENT_TRACK) {
+    return this.http
+      .get(
+       API_URL
+      )
+      .pipe(map((res) => this.transformData(res, event)));
+  }
+
+  public getTopVisitor(data: any) {
     const visitors: any = {};
-    EVENT_DETAILS_MOCK_DATA_SEQUENTIAL[0].forEach((x: any) => {
+    data.forEach((x: any) => {
       if (visitors[x.userId]) {
         visitors[x.userId].count = visitors[x.userId].count + 1;
       } else {
         visitors[x.userId] = {
           count: 1,
           userId: x.userId,
-          email: x.email,
         };
       }
     });
-    return of(Object.values(visitors));
+    return Object.values(visitors);
   }
 
-  public getTopCompanies() {
+  public getTopCompanies(data: any) {
     const companies: any = {};
-    EVENT_DETAILS_MOCK_DATA_SEQUENTIAL[0].forEach((x: any) => {
+    data.forEach((x: any) => {
       if (companies[x.companyId]) {
         companies[x.companyId].count = companies[x.companyId].count + 1;
       } else {
         companies[x.companyId] = {
           count: 1,
           companyId: x.companyId,
-          companyName: x.companyName,
           userId: x.userId,
           email: x.email,
         };
       }
     });
-    return of(Object.values(companies));
+    return Object.values(companies);
+  }
+
+  public transformData(data: any, event: string) {
+    const eventsData = data
+      .map((x: any) => {
+        return {
+          ...x.instrumentor_event_detail,
+        };
+      })
+      .filter((x: any) => x.recordedEventType === event);
+
+    const topCompanies = this.getTopCompanies(eventsData);
+
+    const topVisitors = this.getTopVisitor(eventsData);
+
+    return {
+      eventsData,
+      topCompanies,
+      topVisitors,
+    };
   }
 }

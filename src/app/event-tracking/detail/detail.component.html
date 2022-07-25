@@ -1,87 +1,92 @@
 <main>
+  <nz-spin *ngIf="isLoading" nzSimple [nzSize]="'large'"></nz-spin>
+  <h1 *ngIf="!isLoading" class="page-title">{{title}}</h1>
   <canvas id="myChart" width="1200px" height="400"></canvas>
 
-  <section class="flex">
-    <div class="top-section">
-      <div class="section-heading">Top Visistors</div>
+  <ng-container *ngIf="!isLoading">
+
+    <section class="flex">
+      <div class="top-section">
+        <div class="section-heading">Top Visistors</div>
+        <nz-table
+          #visitorTable
+          [nzData]="visitorsData"
+          [nzShowPagination]="false"
+          [nzFrontPagination]="false"
+          [nzScroll]="{ y: '400px' }"
+        >
+          <thead>
+            <tr>
+              <th>User ID</th>
+              <th>Number of Track Events</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let data of visitorTable.data">
+              <td>{{ data.userId }}</td>
+              <td>{{ data.count }}</td>
+            </tr>
+          </tbody>
+        </nz-table>
+      </div>
+      <div class="top-section">
+        <div class="section-heading">Top Accounts</div>
+        <nz-table
+          #companyTable
+          [nzData]="companyData"
+          [nzShowPagination]="false"
+          [nzFrontPagination]="false"
+          [nzScroll]="{ y: '400px' }"
+        >
+          <thead>
+            <tr>
+              <th>Company ID</th>
+              <th>Number of Track Events</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let data of companyTable.data">
+              <td>{{ data.companyId }}</td>
+              <td>{{ data.count }}</td>
+            </tr>
+          </tbody>
+        </nz-table>
+      </div>
+    </section>
+    <div class="event-table">
+      <p class="heading">Properties</p>
       <nz-table
-        #visitorTable
-        [nzData]="visitorsData"
+        #basicTable
+        [nzData]="eventsTableData"
         [nzShowPagination]="false"
         [nzFrontPagination]="false"
         [nzScroll]="{ y: '400px' }"
       >
         <thead>
           <tr>
-            <th>Email</th>
-            <th>Number of Track Events</th>
+            <th>Account</th>
+            <th>Date</th>
+            <th>Camera Type</th>
+            <th>Event ID</th>
+            <th>Time Since Upload</th>
+            <th>Event Type</th>
+            <th>Vehicle ID</th>
+            <th>Company ID</th>
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let data of visitorTable.data">
-            <td>{{ data.email }}</td>
-            <td>{{ data.count }}</td>
+          <tr *ngFor="let data of basicTable.data">
+            <td>{{ data.userId }}</td>
+            <td>{{ data.date }}</td>
+            <td>{{ data.cameraType }}</td>
+            <td>{{ data.eventId }}</td>
+            <td>{{ data.timeSinceUpload }}</td>
+            <td>{{ data.eventType }}</td>
+            <td>{{ data.vehicleId }}</td>
+            <td>{{ data.companyId }}</td>
           </tr>
         </tbody>
       </nz-table>
     </div>
-    <div class="top-section">
-      <div class="section-heading">Top Accounts</div>
-      <nz-table
-        #companyTable
-        [nzData]="companyData"
-        [nzShowPagination]="false"
-        [nzFrontPagination]="false"
-        [nzScroll]="{ y: '400px' }"
-      >
-        <thead>
-          <tr>
-            <th>Accounts</th>
-            <th>Number of Track Events</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let data of companyTable.data">
-            <td>{{ data.companyName }}</td>
-            <td>{{ data.count }}</td>
-          </tr>
-        </tbody>
-      </nz-table>
-    </div>
-  </section>
-  <div class="event-table">
-    <p class="heading">Properties</p>
-    <nz-table
-      #basicTable
-      [nzData]="eventsTableData"
-      [nzShowPagination]="false"
-      [nzFrontPagination]="false"
-      [nzScroll]="{ y: '400px' }"
-    >
-      <thead>
-        <tr>
-          <th>Account</th>
-          <th>Date</th>
-          <th>Camera Type</th>
-          <th>Event ID</th>
-          <th>Time Since Upload</th>
-          <th>Event Type</th>
-          <th>Vehicle ID</th>
-          <th>Company ID</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let data of basicTable.data">
-          <td>{{ data.userId }}</td>
-          <td>{{ data.date }}</td>
-          <td>{{ data.cameraType }}</td>
-          <td>{{ data.eventId }}</td>
-          <td>{{ data.timeSinceUpload }}</td>
-          <td>{{ data.eventType }}</td>
-          <td>{{ data.vehicleId }}</td>
-          <td>{{ data.companyId }}</td>
-        </tr>
-      </tbody>
-    </nz-table>
-  </div>
+  </ng-container>
 </main>

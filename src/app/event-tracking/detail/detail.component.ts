@@ -1,7 +1,9 @@
+import { SAFETY_EVENT_TRACK } from './../list/list.component';
+import { ActivatedRoute } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { EventTrackingDetailService } from './event-tracking-detail.service';
 // import {Chart } from 'chart.js';
-import Chart from 'chart.js/auto'
+import Chart from 'chart.js/auto';
 export interface IEventData {
     date: string;
     cameraType: string;
@@ -22,8 +24,9 @@ export class DetailComponent implements OnInit {
   public eventsTableData: any = [];
   public visitorsData: any = [];
   public companyData: any = [];
-
+  public isLoading = false;
   public chartData: any = [];
+  public title: SAFETY_EVENT_TRACK = SAFETY_EVENT_TRACK.OPENED;
   private graphTotals: { [key: string]: number } = {};
   private canvas: any;
   private ctx: any;
@@ -31,11 +34,17 @@ export class DetailComponent implements OnInit {
     responsive: true, // Instruct chart js to respond nicely.
     maintainAspectRatio: false, // Add to prevent default behaviour of full-width/height
   };
-  constructor(private eventTrackingDetailService: EventTrackingDetailService) {}
+  constructor(private eventTrackingDetailService: EventTrackingDetailService, private activateRoute: ActivatedRoute) {}
 
   ngOnInit(): void {
+    const params = this.activateRoute.snapshot.params;
+    this.isLoading = true;
+    this.title = params?.event || SAFETY_EVENT_TRACK.OPENED;
     this.eventTrackingDetailService.getActualEventsData().subscribe((res: any) => {
-      this.eventsTableData = res;
+      this.isLoading = false;
+      this.eventsTableData = res.eventsData;
+      this.companyData = res.topCompanies;
+      this.visitorsData = res.topVisitors;
       this.eventsTableData = this.eventsTableData.map((x: any) => x.instrumentor_event_detail);
 
       this.eventsTableData.forEach((event: any) => {
@@ -51,6 +60,8 @@ export class DetailComponent implements OnInit {
       Object.keys(this.graphTotals).forEach((date: string) => {
         this.chartData.push({ date, events: this.graphTotals[date] });
       });
+      this.chartData = [...this.chartData];
+      this.drawChart();
     });
 
     this.eventTrackingDetailService.getTopVisitor().subscribe((res) => {
@@ -81,15 +92,15 @@ export class DetailComponent implements OnInit {
         datasets: [
           {
             label: 'Total Events',
-            data:  Object.values(this.graphTotals),
-            backgroundColor: "#80b6f4",
+            data: Object.values(this.graphTotals),
+            backgroundColor: '#80b6f4',
             type: 'line',
             order: 0,
-            borderColor: "#80b6f4",
-            pointBorderColor: "#80b6f4",
-            pointBackgroundColor: "#80b6f4",
-            pointHoverBackgroundColor: "#80b6f4",
-            pointHoverBorderColor: "#80b6f4",
+            borderColor: '#80b6f4',
+            pointBorderColor: '#80b6f4',
+            pointBackgroundColor: '#80b6f4',
+            pointHoverBackgroundColor: '#80b6f4',
+            pointHoverBorderColor: '#80b6f4',
             pointBorderWidth: 10,
             pointHoverRadius: 10,
             pointHoverBorderWidth: 1,

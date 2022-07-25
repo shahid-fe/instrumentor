@@ -1,4 +1,8 @@
-<nz-page-header nzTitle="Instrumentor"></nz-page-header>
+<nz-page-header [nzTitle]="title"></nz-page-header>
 <div class="content">
   <router-outlet></router-outlet>
 </div>
+
+<ng-template #title>
+  <p class="title" (click)="onHomeClick()">Instrumentor</p>
+</ng-template>
