@@ -10,13 +10,13 @@ import { getCookie, setCookie, CookieKey } from '../lib/cookies';
 
 import { tap } from 'rxjs/operators';
 
-const API_URL = 'http://p.k2labs.org';
+const API_URL = 'http://efc8-101-50-109-15.ngrok.io/api/w2';
 
-export const W2_API_URL = `${API_URL}/api/w2`;
-export const W2_WS_URL = `${API_URL.replace('http', 'ws')}/api/w2`;
-export const W2_API = 'w2';
-export const W3_API = 'w3';
-export const W3_API_URL = `${API_URL}/api/${W3_API}`;
+// export const W2_API_URL = `${API_URL}/api/w2`;
+// export const W2_WS_URL = `${API_URL.replace('http', 'ws')}/api/w2`;
+// export const W2_API = 'w2';
+// export const W3_API = 'w3';
+// export const W3_API_URL = `${API_URL}/api/${W3_API}`;
 
 // this is a BE param used to determine if they should check user permissions when retrieving assets, drivers, or vehicles
 // necessary as the current permissions should only pertain to fleet view, but not during alerts workflow
@@ -32,8 +32,6 @@ let currentHardVersion = getCookie(HARD_VERSION_COOKIE_NAME);
   providedIn: 'root',
 })
 export class ServerApi {
-  public API_VER_W2 = 'w2';
-  public API_VER_W3 = 'w3';
   private readonly requestDeniedErrorMessage: string = 'Cannot make non-GET requests in remote login session';
 
   constructor(
@@ -45,17 +43,16 @@ export class ServerApi {
   public get<T>(
     endpointUrl: string,
     params = new Map(),
-    apiVer: string = this.API_VER_W2,
     headers = new Map(),
     useBracketsForArrayValues: boolean = true,
   ) {
     return this.http
       .get<T>(
-        `${this._getApiUrl(apiVer)}/${endpointUrl}`,
-        this._getRequestOptions('get', params, headers, useBracketsForArrayValues),
+        `${this._getApiUrl()}/${endpointUrl}`,
+        // this._getRequestOptions('get', params, headers, useBracketsForArrayValues),
       )
       .pipe(
-        tap(this._checkVersion.bind(this)),
+        // tap(this._checkVersion.bind(this)),
       );
   }
 
@@ -63,13 +60,12 @@ export class ServerApi {
     endpointUrl: string,
     body: any,
     params = new Map(),
-    apiVer: string = this.API_VER_W2,
     observeEvents: boolean = false,
   ): Observable<any> {
 
     return this.http
       .post<T>(
-        `${this._getApiUrl(apiVer)}/${endpointUrl}`,
+        `${this._getApiUrl}/${endpointUrl}`,
         JSON.stringify(body),
         this._getRequestOptions('post', params, new Map(), true, observeEvents),
       ).pipe(
@@ -77,8 +73,8 @@ export class ServerApi {
       );
   }
 
-  private _getApiUrl(apiVer: string) {
-    return `${API_URL}/api/${apiVer}`;
+  private _getApiUrl() {
+    return API_URL;
   }
 
   private _getHeaders(headers = {}) {

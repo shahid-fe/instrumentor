@@ -3,14 +3,14 @@ import { EventTrackingDetailService } from './event-tracking-detail.service';
 // import {Chart } from 'chart.js';
 import Chart from 'chart.js/auto'
 export interface IEventData {
-  date: string;
-  cameraType: string;
-  id: number;
-  timeSinceUpload: string;
-  type: string;
-  vehicleId: number;
-  userId: number;
-  companyId: number;
+    date: string;
+    cameraType: string;
+    id: number;
+    timeSinceUpload: string;
+    type: string;
+    vehicleId: number;
+    userId: number;
+    companyId: number;
 }
 
 @Component({
@@ -34,17 +34,20 @@ export class DetailComponent implements OnInit {
   constructor(private eventTrackingDetailService: EventTrackingDetailService) {}
 
   ngOnInit(): void {
-    this.eventTrackingDetailService.getEventsData().subscribe((res: any) => {
-      console.log(res);
-      this.eventsTableData = res[0];
-      this.eventsTableData.forEach((event: IEventData) => {
+    this.eventTrackingDetailService.getActualEventsData().subscribe((res: any) => {
+      this.eventsTableData = res;
+      this.eventsTableData = this.eventsTableData.map((x: any) => x.instrumentor_event_detail);
+
+      this.eventsTableData.forEach((event: any) => {
         const date: string = event.date;
+        if(!date) return;
         if (this.graphTotals[date]) {
           this.graphTotals[date]++;
         } else {
           this.graphTotals[date] = 1;
         }
       });
+
       Object.keys(this.graphTotals).forEach((date: string) => {
         this.chartData.push({ date, events: this.graphTotals[date] });
       });
@@ -59,6 +62,10 @@ export class DetailComponent implements OnInit {
     });
 
     this.drawChart();
+    // --- real data ---
+    // this.eventTrackingDetailService.getActualEventsData().subscribe((res: any) => {
+    //   console.log('real data', res);
+    // })
   }
 
   private drawChart() {

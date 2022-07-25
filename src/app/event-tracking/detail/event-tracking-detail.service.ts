@@ -10,6 +10,9 @@ import { EVENT_DETAILS_MOCK_DATA_SEQUENTIAL } from './detail.mock';
 export class EventTrackingDetailService {
   constructor(@Inject(ServerApi) private api: ServerApi) {}
 
+  public getActualEventsData() {
+    return this.api.get('instrumentor_event_details');
+  }
   public getEventsData() {
     return of(EVENT_DETAILS_MOCK_DATA_SEQUENTIAL);
   }
