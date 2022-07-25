@@ -1,24 +1,25 @@
 import { SAFETY_EVENT_TRACK } from './../list/list.component';
 import { ActivatedRoute } from '@angular/router';
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, Injectable, OnInit } from '@angular/core';
 import { EventTrackingDetailService } from './event-tracking-detail.service';
 // import {Chart } from 'chart.js';
 import Chart from 'chart.js/auto';
 export interface IEventData {
-    date: string;
-    cameraType: string;
-    id: number;
-    timeSinceUpload: string;
-    type: string;
-    vehicleId: number;
-    userId: number;
-    companyId: number;
+  date: string;
+  cameraType: string;
+  id: number;
+  timeSinceUpload: string;
+  type: string;
+  vehicleId: number;
+  userId: number;
+  companyId: number;
 }
 
 @Component({
   selector: 'app-detail',
   templateUrl: './detail.component.html',
   styleUrls: ['./detail.component.scss'],
+  providers: [EventTrackingDetailService],
 })
 export class DetailComponent implements OnInit {
   public eventsTableData: any = [];
@@ -33,35 +34,40 @@ export class DetailComponent implements OnInit {
     responsive: true, // Instruct chart js to respond nicely.
     maintainAspectRatio: false, // Add to prevent default behaviour of full-width/height
   };
-  constructor(private eventTrackingDetailService: EventTrackingDetailService, private activateRoute: ActivatedRoute) {}
+  constructor(
+    @Inject(EventTrackingDetailService)
+    private eventTrackingDetailService: EventTrackingDetailService,
+    private activateRoute: ActivatedRoute
+  ) {}
 
   ngOnInit(): void {
     const params = this.activateRoute.snapshot.params;
     this.isLoading = true;
     this.title = params?.event || SAFETY_EVENT_TRACK.OPENED;
-    this.eventTrackingDetailService.getAllEventsData(this.title).subscribe((res: any) => {
-      this.isLoading = false;
-      this.eventsTableData = res.eventsData;
-      this.companyData = res.topCompanies;
-      this.visitorsData = res.topVisitors;
+    this.eventTrackingDetailService
+      .getAllEventsData(this.title)
+      .subscribe((res: any) => {
+        this.isLoading = false;
+        this.eventsTableData = res.eventsData;
+        this.companyData = res.topCompanies;
+        this.visitorsData = res.topVisitors;
 
-      this.eventsTableData.forEach((event: any) => {
-        const date: string = event.date;
-        if(!date) return;
-        if (this.graphTotals[date]) {
-          this.graphTotals[date]++;
-        } else {
-          this.graphTotals[date] = 1;
-        }
+        this.eventsTableData.forEach((event: any) => {
+          const date: string = event.date;
+          if (!date) return;
+          if (this.graphTotals[date]) {
+            this.graphTotals[date]++;
+          } else {
+            this.graphTotals[date] = 1;
+          }
+        });
+
+        this.drawChart();
       });
-
-      this.drawChart();
-    });
 
     this.eventTrackingDetailService.getTopVisitor(this.visitorsData);
 
     this.eventTrackingDetailService.getTopCompanies(this.companyData);
-
   }
 
   private drawChart() {
@@ -71,7 +77,7 @@ export class DetailComponent implements OnInit {
     gradient.addColorStop(0, 'rgba(239,43,114,1)');
     gradient.addColorStop(1, 'rgba(239,43,114,0)');
 
-    let chartStatus = Chart.getChart("myChart"); // <canvas> id
+    let chartStatus = Chart.getChart('myChart'); // <canvas> id
     if (chartStatus != undefined) {
       chartStatus.destroy();
     }

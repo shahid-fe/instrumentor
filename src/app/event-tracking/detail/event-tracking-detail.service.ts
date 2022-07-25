@@ -5,13 +5,12 @@ import { Inject, Injectable } from '@angular/core';
 import { ServerApi } from 'src/app/services/server-api';
 import { IEventData } from './detail.component';
 import { EVENT_DETAILS_MOCK_DATA_SEQUENTIAL } from './detail.mock';
-import { map } from 'rxjs/operators';
+import { map, retry, delay } from 'rxjs/operators';
 
-const API_URL = 'http://efc8-101-50-109-15.ngrok.io/api/w2/instrumentor_event_details'
+const API_URL =
+  'http://f090-101-50-109-15.ngrok.io/api/w2/instrumentor_event_details';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable()
 export class EventTrackingDetailService {
   constructor(private http: HttpClient) {}
 
@@ -20,11 +19,11 @@ export class EventTrackingDetailService {
   }
 
   public getAllEventsData(event: SAFETY_EVENT_TRACK) {
-    return this.http
-      .get(
-       API_URL
-      )
-      .pipe(map((res) => this.transformData(res, event)));
+    return this.http.get(API_URL).pipe(
+      map((res) => this.transformData(res, event)),
+      retry(3), // you retry 3 times
+      delay(500), // each retry will start after 1 second,
+    );
   }
 
   public getTopVisitor(data: any) {
