@@ -25,7 +25,6 @@ export class DetailComponent implements OnInit {
   public visitorsData: any = [];
   public companyData: any = [];
   public isLoading = false;
-  public chartData: any = [];
   public title: SAFETY_EVENT_TRACK = SAFETY_EVENT_TRACK.OPENED;
   private graphTotals: { [key: string]: number } = {};
   private canvas: any;
@@ -40,12 +39,11 @@ export class DetailComponent implements OnInit {
     const params = this.activateRoute.snapshot.params;
     this.isLoading = true;
     this.title = params?.event || SAFETY_EVENT_TRACK.OPENED;
-    this.eventTrackingDetailService.getActualEventsData().subscribe((res: any) => {
+    this.eventTrackingDetailService.getAllEventsData(this.title).subscribe((res: any) => {
       this.isLoading = false;
       this.eventsTableData = res.eventsData;
       this.companyData = res.topCompanies;
       this.visitorsData = res.topVisitors;
-      this.eventsTableData = this.eventsTableData.map((x: any) => x.instrumentor_event_detail);
 
       this.eventsTableData.forEach((event: any) => {
         const date: string = event.date;
@@ -57,26 +55,13 @@ export class DetailComponent implements OnInit {
         }
       });
 
-      Object.keys(this.graphTotals).forEach((date: string) => {
-        this.chartData.push({ date, events: this.graphTotals[date] });
-      });
-      this.chartData = [...this.chartData];
       this.drawChart();
     });
 
-    this.eventTrackingDetailService.getTopVisitor().subscribe((res) => {
-      this.visitorsData = res;
-    });
+    this.eventTrackingDetailService.getTopVisitor(this.visitorsData);
 
-    this.eventTrackingDetailService.getTopCompanies().subscribe((res) => {
-      this.companyData = res;
-    });
+    this.eventTrackingDetailService.getTopCompanies(this.companyData);
 
-    this.drawChart();
-    // --- real data ---
-    // this.eventTrackingDetailService.getActualEventsData().subscribe((res: any) => {
-    //   console.log('real data', res);
-    // })
   }
 
   private drawChart() {
@@ -85,6 +70,13 @@ export class DetailComponent implements OnInit {
     var gradient = this.ctx.createLinearGradient(0, 0, 0, 280);
     gradient.addColorStop(0, 'rgba(239,43,114,1)');
     gradient.addColorStop(1, 'rgba(239,43,114,0)');
+
+    let chartStatus = Chart.getChart("myChart"); // <canvas> id
+    if (chartStatus != undefined) {
+      chartStatus.destroy();
+    }
+    this.isLoading = false;
+
     let myChart = new Chart(this.ctx, {
       type: 'line',
       data: {
